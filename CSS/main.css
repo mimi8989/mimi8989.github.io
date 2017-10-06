@@ -21,8 +21,6 @@ body {
 .lucyimg {
   height: 550px;
   width: 450px;
-  margin: inherit;
-  float: left;
 }
 
 .containertwo {
