@@ -1,0 +1,35 @@
+
+
+
+h1 {
+    color: white;
+    padding-top: 35px;
+    font-size: 28px;
+}
+
+body {
+    color: white;
+}
+
+.container {
+    height:100px;
+    background-color: #fd4445;
+    padding-left: 30px;
+    margin: inherit;
+}
+
+.lucyimg {
+  height: 550px;
+  width: 450px;
+  margin: inherit;
+  float: left;
+}
+
+.containertwo {
+    height: 500px;
+    background-color: #fd4445;
+    float: right;
+    margin-top: 5px;
+    width: 60%;
+}
+    
