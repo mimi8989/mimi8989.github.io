@@ -1,51 +1,60 @@
 
 h1 {
     color: black;
-    padding-top: 35px;
-    font-size: 28px;
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: Helvetica, sans-serif;
+    float: left;
+ 
 }
 
-body {
-    color: black;
-}
-
-p {
-    color: black;
+h2 { color: #80242b;}
+    
+p { color: black;
     font-size: 18px;
-    font-family: sans-serif
+    font-family: helvetica, sans-serif;
+    top: 40px;
+    position: relative;
+    margin: inherit;
+    float: left;
+    width: 50%;
+    height: 350px;
+    overflow: scroll;
+}
+  
+
+.container {
+    margin: inherit;
+    width: 50%;
+    float: left;
 }
 
-.essay {
-    width: 50%;
+a { 
+    background: black;
+    border-radius: 3px;
+    color: white;
+    padding: 5px;
+    text-decoration: dotted underline;
+    margin: inherit;
+    float: left;
     position: relative;
     top: 50px;
-}
-.container {
-    height: 100px;
-    padding-left: 30px;
-    margin: 0 auto;
-    width: 100%;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-a { text-decoration: none; 
-    border-radius: 10px;
-    color: black;
-    background-color: white;
-    padding: 5px;
-    border: solid black 1px;
-    position: relative;
-    top: 20px;
+    
     
 }
 
-a:hover { 
-         background-color: black;
-         color: white;
+
+img {  width: 45%;
+       height: 450px;
+       float: right;
+       margin: inherit;
+       top: 160px;
+ 
+ 
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
