@@ -1,6 +1,4 @@
 
-
-
 h1 {
     color: white;
     padding-top: 35px;
@@ -11,23 +9,28 @@ body {
     color: white;
 }
 
+p {
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif
+}
+
 .container {
-    height:100px;
-    background-color: #fd4445;
+    height: 100px;
+    background-color: black;
     padding-left: 30px;
-    margin: inherit;
+    margin: 0 auto;
 }
 
-.lucyimg {
-  height: 550px;
-  width: 450px;
-}
-
-.containertwo {
-    height: 500px;
-    background-color: #fd4445;
-    float: right;
-    margin-top: 5px;
-    width: 60%;
-}
+a { color: black;
+    background-color: white;
+    padding: 14px;
+    border: solid black 1px;
     
+}
+
+a:hover { 
+         background-color: black;
+         color: white;
+}
+
